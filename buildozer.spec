@@ -11,8 +11,8 @@ source.include_exts = py,png,jpg,kv,atlas
 # Application version
 version = 1.0
 
-# Dependencies
-requirements = python3,kivy==2.2.1,kivymd,openpyxl,pillow
+# Dependencies (Exact versions to avoid build crashes)
+requirements = python3,kivy==2.2.1,kivymd==1.1.1,openpyxl,pillow
 
 # Orientation & Permissions
 orientation = portrait
@@ -24,3 +24,4 @@ android.api = 33
 android.minapi = 21
 android.ndk = 25b
 android.archs = arm64-v8a, armeabi-v7a
+android.accept_sdk_licenses = True
