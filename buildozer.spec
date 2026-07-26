@@ -11,7 +11,7 @@ source.include_exts = py,png,jpg,kv,atlas
 # Application version
 version = 1.0
 
-# Dependencies (Exact versions to avoid build crashes)
+# Dependencies
 requirements = python3,kivy==2.2.1,kivymd==1.1.1,openpyxl,pillow
 
 # Orientation & Permissions
@@ -23,5 +23,5 @@ android.permissions = INTERNET, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE, M
 android.api = 33
 android.minapi = 21
 android.ndk = 25b
-android.archs = arm64-v8a, armeabi-v7a
+android.build_tools_version = 33.0.2
 android.accept_sdk_licenses = True
